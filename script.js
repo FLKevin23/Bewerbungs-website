@@ -23,7 +23,7 @@ const texts = {
        interestsTitle: 'Interessen',
        interestsList: [ 'Trail Running', 'calisthenics', 'Künstliche Intelligenz & Machine Learning', ' Digitales Marketing', 'Persönliches Wachstum & Mindset'],
        aboutTitle: 'Über mich',
-       aboutmeLTrailrunner:`Trailrunner <br> Das Trailrunning ist meine Leidenschaft.<br>
+       aboutmeTrailrunner:`Trailrunner <br> Das Trailrunning ist meine Leidenschaft.<br>
                   Ich geniesse die Natur und die Herausforderung, die Berge zu bezwingen. Es ist für mich eine perfekte Kombination aus Ausdauertraining und mentaler Stärke.
                   Besondere Freude habe ich an Ultramarathons, die mich an meine Grenzen bringen und darüber hinausgehen lassen. Sowie im Mai diesen Jahres als ich einen 100km 4700hm Ultramarathon in unter 17 stunden gelaufen bin.`,
        aboutmeMindset:`Persönliches Wachstum & Mindset<br>
