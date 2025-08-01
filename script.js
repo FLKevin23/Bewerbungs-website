@@ -10,7 +10,7 @@ const texts = {
       },
        
       mywayTitle: 'Mein Weg',
-      aboutText: `Hallo, ich bin Kevin 25 Jahre alt, ehemaliger Maurer und Ultramarathonläufer.
+      mywayText: `Hallo, ich bin Kevin 25 Jahre alt, ehemaliger Maurer und Ultramarathonläufer.
                   Anhaltende Spätfolgen eines Fahrradunfalls beendeten meine Arbeit auf dem Bau und führten mich zur Webentwicklung.
                   Seit März 2025 lerne ich das 10-Finger-System und arbeite täglich an meiner Umschulung zum Mediamatiker.
                   HTML, CSS und JavaScript bringe ich mir über Codecademy und eigene Projekte bei sowie diese Website, die ich mit KI-Unterstützung gebaut habe.`,      
