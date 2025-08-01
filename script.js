@@ -165,6 +165,22 @@ document.addEventListener('scroll', () => {
     } else {
       section.classList.remove('visible');
     }
-  });
+  function updateLanguage(language) {
+  if (!texts[language]) {
+    console.error('Language not supported:', language);
+    return;
+  }
+
+  // Sicherstellen, dass alle Elemente existieren
+  const el = document.getElementById("aboutmeTrailrunner");
+  if (el) {
+    el.textContent = texts[language].aboutmeTrailrunner;
+  } else {
+    console.warn("Element #aboutmeTrailrunner not found at updateLanguage()");
+  }
+
+  // ... das gleiche für alle anderen Elemente
+}
+ });
 });
 
