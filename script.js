@@ -15,7 +15,7 @@ const texts = {
                   Seit März 2025 lerne ich das 10-Finger-System und arbeite täglich an meiner Umschulung zum Mediamatiker.
                   HTML, CSS und JavaScript bringe ich mir über Codecademy und eigene Projekte bei sowie diese Website, die ich mit KI-Unterstützung gebaut habe.`,      
        skillsTitle: 'IT-Kenntnisse',
-       skillsList: [ 'E-Mail & Internet', 'Dateiverwaltung', 'Content Creation, (Instagram, Canva, iMovie)', 'E-Commerce', 'HTML', 'CSS', 'JavaScript', 'AI' ],
+       skillsList:[ '10-Finger-System', 'Microsoft Office (Word, Excel, PowerPoint)', 'Google Workspace (Docs, Sheets, Slides)', 'E-Mail & Internet', 'Dateiverwaltung', 'Content Creation, (Instagram, Canva, iMovie)', 'E-Commerce', 'HTML', 'CSS', 'JavaScript', 'AI'],
        portfolioTitle: 'Meine Projekte',
        portfolioDescription1: 'Dieses Webseiten-Mockup entstand im Rahmen eines Schnuppertages. Es stellt eine Coaching-Webseite dar, auf der verschiedene Angebote zu den Themen Trailrunning und Mindset präsentiert werden.',
        portfolioDescription2: 'Das Logo wurde während eines Schnuppertages erstellt und repräsentiert meine persönliche Marke.',
@@ -55,7 +55,7 @@ Ongoing late effects from a bicycle accident ended my career in construction and
 Since March 2025, I have been learning the 10-finger typing system and im working daily on my retraining as a Mediamatiker.
 I am teaching myself HTML, CSS, and JavaScript through Codecademy and personal projects, including this website, which I built with AI assistance`,
        skillsTitle: 'IT-Knowledge',
-       skillsList: [ 'E-Mail & Internet', 'File Managment', 'Content Creation, (Instagram, Canva, iMovie)', 'E-Commerce', 'HTML', 'CSS', 'JavaScript', 'AI' ],
+       skillsList: ['10-Finger-System', 'Microsoft Office (Word, Excel, PowerPoint)', 'Google Workspace (Docs, Sheets, Slides)','E-Mail & Internet', 'File Management', 'Content Creation, (Instagram, Canva, iMovie)', 'E-Commerce', 'HTML', 'CSS', 'JavaScript', 'AI'],
        portfolioTitle: 'My Projects',
        portfolioDescription1:'This website mockup was created as part of a taster day. It represents a coaching website that presents various offers on the topics of trail running and mindset.',
        portfolioDescription2:'The logo was created during a trial day and represents my personal brand.',
@@ -165,7 +165,10 @@ document.addEventListener('scroll', () => {
     } else {
       section.classList.remove('visible');
     }
-  function updateLanguage(language) {
+  });
+});
+
+function updateLanguage(language) {
   if (!texts[language]) {
     console.error('Language not supported:', language);
     return;
@@ -181,6 +184,5 @@ document.addEventListener('scroll', () => {
 
   // ... das gleiche für alle anderen Elemente
 }
- });
-});
+;
 
