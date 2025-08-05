@@ -44,7 +44,7 @@ nav: {
         myway: 'My way',  
         skills: 'IT-Knowledge',
         portfolio: 'My Projects',
-        about: 'About Me',
+        about: 'About me',
         interests: 'Interests',
         contact: 'Contact'
       },
@@ -62,7 +62,7 @@ I am teaching myself HTML, CSS, and JavaScript through Codecademy and personal p
        portfolioDescription3:' The final version of my logo was created with the help of AI.',
        interestsTitle: 'Interests',
        interestsList: [ 'Trail Running', 'Calisthenics', 'Artificial Intelligence & Machine Learning', ' Digital Marketing', 'Personal Growth & Mindset'],
-       aboutTitle: 'About Me',
+       aboutTitle: 'About me',
        aboutmeTrailrunner:`Trailrunner <br>Trailrunning is my Passion.<br>
                   I enjoy nature and the challenge of conquering mountains. For me, it's a perfect combination of endurance training and mental strength.
                   I particularly enjoy ultramarathons, which push me to my limits and beyond. Like this past May, when I ran a 100km ultramarathon with 4700m of elevation gain in under 17 hours.`,
@@ -105,7 +105,7 @@ const navElements = {
     myway: document.getElementById('nav-my-way'),
     skills: document.getElementById('nav-skills'),
     portfolio: document.getElementById('nav-portfolio'),  
-    about: document.getElementById('nav-about'),
+    about: document.getElementById('nav-about-me'),
     interests: document.getElementById('nav-interests'),
     contact: document.getElementById('nav-contact')
 }
@@ -175,7 +175,7 @@ function updateLanguage(language) {
   }
 
   // Sicherstellen, dass alle Elemente existieren
-  const el = document.getElementById("aboutmeTrailrunner");
+  const el = document.getElementById("about-me-trailrunner");
   if (el) {
     el.textContent = texts[language].aboutmeTrailrunner;
   } else {

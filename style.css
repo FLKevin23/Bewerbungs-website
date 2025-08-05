@@ -123,9 +123,13 @@
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    }
-section:first-of-type {
+    scroll-margin-top: 80px; /* Adjust for fixed navbar */
+   }
+   section:first-of-type {
     margin-top: 80px;
+    }
+    section:interests {
+      margin-top: 80px;
     }
     .visible {
         opacity: 1;
